@@ -33,7 +33,7 @@ class BasicMessagingTest extends FunSuite {
 	   	}
 	"""
 
-    assert(ParseCM2Message(json).`type` === "submit")
+    assert(ParseCM2Message(json).`type` === "submitted")
 
   }
 }
